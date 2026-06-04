@@ -1,0 +1,48 @@
+#navbar{
+    background-color:#ffffff;
+    height: 50px;
+    font-size: 1em;
+}
+a{
+    padding-right:50px;
+    text-decoration: none;
+    color: #0f2a4d;
+    font-weight: bold;
+}
+#my {
+    padding-right:400px;
+    font-size: 40px;
+     font-weight: bolder;
+     color: #0D9488;
+     padding-left: 30px;   
+}
+.my{
+    height: 600px;
+    background-image: url("Gemini_Generated_Image_9fg84v9fg84v9fg8.png");
+}
+
+img{
+    height: 200px;
+    width: 180px;
+    border: 2px solid ;
+     transition: transform 0.5s ease-in-out; 
+     text-align: center;
+}
+img:hover{
+    transform: rotate(15deg);
+}
+p{
+    color: #567ff6;
+    background-color: aliceblue;
+}
+.ey{
+    background-color: #0f2a4d;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+     transition: transform 0.5s ease-in-out;
+}
+.ey:hover{
+    transform: rotate(1deg);
+}
