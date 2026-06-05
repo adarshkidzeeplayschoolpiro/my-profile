@@ -46,3 +46,11 @@ p{
 .ey:hover{
     transform: rotate(1deg);
 }
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Stacks elements vertically */
+  }
+  
+  .sidebar {
+    display: none; /* Hides heavy sidebars to save valuable space */
+  }
