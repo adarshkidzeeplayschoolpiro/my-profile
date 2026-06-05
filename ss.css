@@ -1,155 +1,48 @@
-/* 1. Global Reset & Typography */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#navbar{
+    background-color:#ffffff;
+    height: 50px;
+    font-size: 1em;
 }
-
-body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #f7f9fc;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* 2. Navigation Bar (Flexbox Layout) */
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ff9f43; /* Friendly Orange */
-    padding: 15px 5%;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-#navbar #my {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #ffffff;
+a{
+    padding-right:50px;
     text-decoration: none;
+    color: #0f2a4d;
+    font-weight: bold;
+}
+#my {
+    padding-right:400px;
+    font-size: 40px;
+     font-weight: bolder;
+     color: #0D9488;
+     padding-left: 30px;   
+}
+.my{
+    height: 600px;
+    background-image: url("Gemini_Generated_Image_9fg84v9fg84v9fg8.png");
 }
 
-#navbar .nav-links {
-    display: flex;
-    gap: 15px;
+img{
+    height: 200px;
+    width: 180px;
+    border: 2px solid ;
+     transition: transform 0.5s ease-in-out; 
+     text-align: center;
 }
-
-#navbar .nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.95rem;
-    padding: 8px 16px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
+img:hover{
+    transform: rotate(15deg);
 }
-
-#navbar .nav-links a:hover {
-    background-color: #ffffff;
-    color: #ff9f43;
+p{
+    color: #567ff6;
+    background-color: aliceblue;
 }
-
-/* 3. Hero Image Banner Section */
-.hero-container {
-    width: 100%;
-    overflow: hidden;
+.ey{
+    background-color: #0f2a4d;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+     transition: transform 0.5s ease-in-out;
 }
-
-.hero-container img {
-    width: 100%;
-    height: auto;
-    max-height: 480px;
-    object-fit: cover;
-    display: block;
-}
-
-/* 4. Body Content Wrapper */
-.main-content {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-/* Principal Title Heading */
-.you {
-    font-family: 'Fredoka', sans-serif;
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: 600;
-    color: #ff4757; /* Playful Pink/Red */
-    margin: 35px 0 15px 0;
-}
-
-/* Principal Card Box Layout */
-.ey {
-    background: #ffffff;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
-    border-top: 6px solid #10ac84; /* Soft Educational Green Accent */
-    margin-bottom: 50px;
-}
-
-.ey h5 {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.5rem;
-    color: #2f3542;
-    margin-bottom: 15px;
-}
-
-.ey h6 {
-    font-size: 1.1rem;
-    color: #57606f;
-    font-weight: 500;
-    line-height: 1.8;
-}
-
-/* 5. Footer Layout */
-footer {
-    background-color: #2f3542;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    margin-top: auto;
-}
-
-/* 6. Media Query for Total Responsiveness (Screens under 768px wide) */
-@media (max-width: 768px) {
-    #navbar {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-        padding: 15px 2%;
-    }
-
-    #navbar .nav-links {
-        width: 100%;
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    #navbar .nav-links a {
-        display: block;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .you {
-        font-size: 1.8rem;
-        margin-top: 25px;
-    }
-
-    .ey {
-        padding: 25px 20px;
-    }
-    
-    .ey h6 {
-        font-size: 1rem;
-    }
+.ey:hover{
+    transform: rotate(1deg);
 }
