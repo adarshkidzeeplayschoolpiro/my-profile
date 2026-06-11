@@ -46,3 +46,46 @@ p{
 .ey:hover{
     transform: rotate(1deg);
 }
+@media (max-width: 768px) {
+    #navbar {
+        height: auto; /* Fits wrapping links */
+        display: flex;
+        flex-direction: column; /* Stacks brand and links vertically */
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    #my {
+        padding-right: 0; /* Removes the massive 400px desktop gap */
+        padding-left: 0;
+        font-size: 28px; /* Scales down text size for small screens */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    a {
+        padding: 8px 0; /* Spaces links evenly without overflowing */
+        display: block;
+        text-align: center;
+    }
+
+    .my {
+        height: 350px; /* Shortens background image height for portrait screens */
+        background-size: cover; /* Prevents image stretching */
+        background-position: center;
+    }
+
+    img {
+        max-width: 100%; /* Keeps images inside screen boundaries */
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .ey {
+        font-size: 22px; /* Scales down text size */
+        padding: 10px;
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+}
